@@ -1,0 +1,25 @@
+1)	Find customers who have not placed any orders.
+2)	Employee information for all employees in each state who were hired before the most recently hired person in that state.
+3)	List the I Ds for all the products that have sold in total more than 20 units across all orders.
+4)	Names of employees, employee birthdate, manager name, manager’s birthdate for those employees born before their manager was born; label columns per problem instructions.
+5)	List in alphabetical order the names of all employees (managers) who are now managing people with skill ID BS12. List each such manager’s name only once, even if that manager manages several people with this skill.
+6)	Count the number of OrderIDs for customers who have not made the payment.
+7)	Names of states where customers reside, but have no salesperson residing in that state.
+8)	List the names and number of employees supervised (label this value HeadCount) for all the supervisors who supervise more than two employees.
+9)	Total number of employees working at each work center.
+10)	List for each vendor those materials that the vendor supplies the supply unit price of which is at least four times the material standard price.
+11)	List in alphabetical order the names of all employees (managers) who are now managing people with skillID BS12. List each such manager’s name only once, even if that manager manages several people with this skill.
+12)	Develop a list of all the PVFC customers by name with the number of vendors in the same state as that customer (label this computed result NumVendors).
+13)	Name of customerID 16, and other customers in same zipcode.
+14)	Display the customer ID, name, and order ID for all customer orders. For those customers who do not have any orders, include them in the display once, with a 0 value for OrderID. The final output should be sorted based on orderID with ascending order.
+15)	List the IDs and names of all products that cost less than the average product price in their product line.
+16)	List of work centers that employ at least one person who has the skill ‘Q C 1’.
+17)	Display the Employee ID and Employee Name for those employees who do not possess the skill Router. Display the results in order by EmployeeName.
+18)	Display order number, customer number, order date and items ordered for your favorite customer (favorite customer must have a  valid customer ID).
+19)	Calculate the total raw material cost (label TotCost) for each product compared to its standard product price and display product ID, product description, standard price, and the total cost in the result.
+20)	Display the salesperson name, product finish, and total quantity sold (labeled as ‘Tot Sales’) for each product finish by each salesperson.
+21)	Write a query to list the number of products produced in each work center (label this result ‘TotalProducts’). If a work center does not produce any products, display the result with a total of 0.
+22)	List the IDs and names of those sales territories that have at least 50 percent more customers as the average number of customers per territory.
+23)	List each customer who has bought computer desks and the number of units bought by each customer.
+24)	Produce a list of all the products (show product description) and the number of times each product has been ordered.
+25)	For each product display in ascending order by product ID the product ID and description along with the customer ID and name for the customer who has bought the most of that product; also show the total quantity ordered by that customer (who has bought the most of that product). Use a correlated subquery.
