@@ -1,0 +1,30 @@
+
+1)	Retrieve all the columns from the table ‘CUSTOMERSHIPADDRESS_T’ where the SHIPCITY must begin with ‘C’.
+2)	Retrieve all the columns from the table ‘CUSTOMERSHIPADDRESS_T’ where the SHIPCITY must end with ‘s’.
+3)	Retrieve all columns (SHIPADDRESS, SHIPCITY, SHIPSTATE ) from the table ‘CUSTOMERSHIPADDRESS_T’ where the SHIPCITY must begin in the range from A to D.
+4)	Retrieve all the columns (SHIPADDRESS, SHIPCITY, SHIPSTATE ) from the table ‘CUSTOMERSHIPADDRESS_T’ where the SHIPCITY must begin with ‘C’ and end with ‘t’.
+5)	Retrieve all the columns ( SHIPADDRESS, SHIPCITY, SHIPSTATE ) from the table ‘CUSTOMERSHIPADDRESS_T where the SHIPCITY must begin with ‘C’ and end with ‘s’ and the SHIPADDRESS should begin a digit but can have up to 3 digits. Note that we do not want SHIPADDRESS that begin with 4 or more digits.
+6)	Retrieve the columns ( SHIPADDRESS, SHIPCITY, SHIPSTATE, SHIPZIP ) from the table ‘CUSTOMERSHIPADDRESS_T where the SHIPSTATE must begin with either ‘C’ or ‘O and SHIPZIP should begin with digits and not end with either word/digit.
+7)	Using the table ‘CUSTOMER_T ‘, Retrieve the letter ‘a’ count for each string of the column ‘CUSTOMERNAME’ only for the records whose ‘CUSTOMERPOSTALCODE’ column contain more than 5 digits. Note: Letter ‘a’ is case insensitive. 
+       Ex1: Input: Apple, Output: 1  
+Ex2: Input: Character, Output: 2
+Ex3: Input: Letter, Output: 0
+8)	Using the table ‘CUSTOMER_T ‘. Format the CUSTOMERPOSTALCODE by replacing the ‘- ‘with Zip : () for the first part of the CUSTOMERPOSTALCODE only for the records whose CUSTOMERPOSTALCODE has not less than 6 digits. Result should contain both CUSTOMERPOSTALCODE, formatted CUSTOMERPOSTALCODE renamed as ‘Formatted ZIP Code’.
+      EX: Input: - xyzab-yyxx; Output: - Zip : (xyzab)yyxx
+9)	A) Identify the EmployeeID which may be correct format by using the index position feature of regex. To achieve this, write a query to identify the index position for the symbol ‘- ‘in the column ‘EMPLOYEEID’ of the table EMPLOYEE_T. Show EMPLOYEEID, calculated index position renamed as ‘IDX POSITION’ in the output.
+B) From the result, identify which EMPLOYEEID’s may be incorrect as per your observation.
+10)	Retrieve the EMPLOYEEID, EMPLOYEENAME from EMPLOYEE_T only when employee name does NOT begin with either L or M.
+Note: Must use negate condition in your query.
+11)	Show the digits followed by ‘-‘for the column ‘CUSTOMERPOSTALCODE’ of the entire table CUSTOMER_T. Result set should contain columns CUSTOMERPOSTALCODE, substring calculated field should be renamed as ‘STREETCODE’.
+Note: Must use regular expression substring concept to generate the results. 
+12)	By using the result set of question-11, Retrieve all the information if there is a STREETCODE value for the corresponding CUSTOMERPOSTALCODE.
+13)	Retrieve 3rd word as an output from the input string ‘This is ReGUlaR Expression Topic Discussion’. Rename the output column as ‘SUBSTRING.
+14)	Retrieve the ‘Topic Wise’ from the input string ‘This is ReGUlaR Expression ,Topic Wise, Discussion’.
+15)	Retrieve the data from PAYMENTCOMMENT of the table PAYMENT_T only when the column value should start from ‘C’. Note that ‘C’ should be case insensitive while selecting the data from the table.
+16)	Identify all the rows of the column ‘EMPLOYEEID’ where there is a non-numeric value in the ‘EMPLOYEEID’ column in the table ‘EMPLOYEESKILLS_T’.
+17)	Retrieve the row values from the column’ SHIPCITY’ of a table ‘CUSTOMERSHIPADDRESS_T’ only when the letter ‘E’ occurred twice in a row value of the column ‘SHIPCITY’. Ex: Elephant: letter ‘e’ occurred twice. 
+Note: Letter ‘e’ is not case sensitive.
+18)	Find the final index position of the letter ‘E’ which occurred 2 times in a row value of the column ‘SHIPCITY’ of the table CUSTOMERSHIPADDRESS_T.  Show ‘SHIPCITY’, calculated index position should be renamed as ‘Index Val’.
+Ex1: Elephant and its index position value is ‘3’.
+EX2: Bat and its index position value is ‘0’.
+Note: Letter ‘e’ is not case sensitive.
